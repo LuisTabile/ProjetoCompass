@@ -27,4 +27,6 @@ O site é totalmente responsivo, a NavBar foi feita utilizando Bootstrap. A pág
 <br>
 Já a página contato possuí um formulário para enviar mensagens, os campos Nome e Email são opcionais, por conta que a pessoa pode não querer se identificar. O campo mensagem é required, ao lado do formulário possui um mapa, com uma API do Google, com foco no local do DCE. <br>
 <br>
-A página Login é acessada pelo icone fa-fa-login na NavBar, no canto esquerdo, nela é possível criar uma conta com o Registre-me, ou fazer o Login com o Entrar, quando clicado no Entrar é aberto uma 'pop-up'.
+A página Login é acessada pelo icone fa-fa-login na NavBar, no canto esquerdo, nela é possível criar uma conta com o Registre-me, ou fazer o Login com o Entrar, quando clicado no Entrar é aberto uma 'pop-up'. Os campos do Register estão todos com o padrão RegeX, o campo nome e sobrenome é possível somente colocar letras, o campo usuário é possível colocar letras e números, o campo e-mail é necessário possuir um @ para ser considerado válido, e o campo senha é necessário uma letra, um número e um caractére especial, além de no mínimo 8 dígitos. <br>
+<br>
+Também no register foi realizado um script para converter o input type password para text, assim, sendo possível a função Mostrar Senha
